@@ -1,0 +1,161 @@
+
+html,body{   
+    width: 100%;
+    height: 100%;
+   
+}
+.top_pic{
+    background-color: lightskyblue;
+    opacity: 0.7;
+}
+.top_pic img{
+    min-height: 60px;
+    overflow: hidden;
+    border-radius: 5%/5%;
+}
+.p1 {
+    color: white;
+    height: 100%;
+    overflow: auto;
+}
+.p1 #text h1{
+    margin: 35px;
+    
+}
+
+    .p1 #text{
+        position: absolute; top: 380px; left: 60px;
+    }
+#photo{
+    background-color: transparent;
+    width: 70%;
+    margin-top: 18px;
+
+}
+#photo img{
+    width: 100%;
+}
+
+canvas{position:fixed;z-index: -1;   background-color: lightskyblue;
+    opacity: 0.7;  }
+
+.p1::-webkit-scrollbar {/*滚动条整体样式*/
+    width: 2px;  /*高宽分别对应横竖滚动条的尺寸*/
+    height: 4px;
+}
+.p1::-webkit-scrollbar-thumb {/*滚动条里面小方块*/
+     border-radius: 1px;
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    background: rgba(0,0,0,0.2);
+}
+.p1::-webkit-scrollbar-track {/*滚动条里面轨道*/
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    border-radius: 0;
+    background: rgba(0,0,0,0.1);
+}
+.project{
+    background-color: #002250;
+    padding-top: 30px;
+}
+.project>.container .pro_pic img{
+    min-height: 200px;
+    min-width: 200px;
+}
+
+.about{
+    
+    margin: 0 auto;
+}
+.about .title{
+    border-bottom: 2px solid blue;
+}
+.about .text p{
+    margin-top: 20px;
+}
+.about>h2{
+    margin: 10px auto;
+}
+
+		.box{
+		    border: 1px solid #333;
+		    position: relative;
+		    overflow: hidden;
+		}
+		.box img{
+		    width: 100%;
+		    height: auto;
+		}
+		.box .box-content{
+		    width: 100%;
+		    height: 100%;
+		    position: absolute;
+		    top: 0;
+		    left: 0;
+		    color: #fff;
+		    text-align: center;
+		    padding: 20% 20px;
+		    background: rgba(0,0,0,0.6);
+		    transform: rotate(-90deg);
+		    transform-origin: left top 0;
+		    transition: all 0.50s ease 0s;
+		}
+		.box .title{
+		    display: inline-block;
+		    font-size: 22px;
+		    color: #fff;
+		    margin: 0 0 15px 0;
+		    position: relative;
+		    transform: rotate(180deg);
+		    transform-origin: right top 0;
+		    transition: all .3s ease-in-out 0.2s;
+		}
+		.box .post{
+		    display: block;
+		    font-size: 18px;
+		    margin-bottom: 15px;
+		    transform: rotate(180deg);
+		    transform-origin: right top 0;
+		    transition: all .3s ease-in-out 0.4s;
+		}
+		.box .description{
+		    font-size: 15px;
+		    margin-bottom: 20px;
+		    padding: 0 20px;
+		    transform: rotate(180deg);
+		    transform-origin: right top 0;
+		    transition: all .3s ease-in-out 0.6s;
+		}
+		.box .read{
+		    font-size: 20px;
+		    font-weight: bold;
+		    color: #fff;
+		    display: block;
+		    letter-spacing:2px;
+		    text-transform: uppercase;
+		    transform: rotate(180deg);
+		    transform-origin: right top 0;
+		    transition: all 0.3s ease-in-out 0.8s;
+		}
+		.box .read:hover{
+		    color: #e8802e;
+		    text-decoration: none;
+		}
+		.box:hover .box-content,
+		.box:hover .title,
+		.box:hover .post,
+		.box:hover .description,
+		.box:hover .read {
+		    transform:rotate(0deg);
+		}
+		@media screen and (max-width: 990px){
+		    .box{ margin-bottom:20px; }
+		}
+		@media screen and (max-width: 359px){
+		    .box .box-content{ padding: 10% 20px; }
+		}
+.page{
+    margin: 10px auto;
+    background-color: white;
+    border-radius: 10%;
+    padding: 59px 59px 59px 59px;
+}
