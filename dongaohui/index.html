@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- 在移动端不缩放 -->
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>北京2022年冬奥会</title>
+    <!-- 新 Bootstrap 核心 CSS 文件 -->
+ 
+<link href="css/bootstrap.css" rel="stylesheet">
+ 
+<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+<script src="js/jquery.js"></script>
+ 
+<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+<script src="js/bootstrap.js"></script>
+<script src="js/jquery.let_it_snow.js"></script>
+
+<link rel="stylesheet" href="./css/style.css">
+
+<link rel="shortcut icon" href="./dong.ico" type="image/x-icon">
+
+
+</head>
+<body>
+    <script type="text/javascript">
+        $(document).ready( function() {
+          $("canvas.snow").let_it_snow({
+            speed: 1,
+            size: 15,
+            count: 26,
+            image: "./images/snowflake.png"
+          });
+        });
+      
+        </script>
+        <canvas width="100%" height="100%" class="snow"></canvas>
+    <!-- 定义反白导航条 -->
+    <div class="navbar navbar-inverse navbar-static-top" style="margin: 0 auto;">
+        <div class="container">
+            <!-- 申明logo的容器 -->
+            <div class="navbar-header">
+                <!-- 针对logo等固定内容的样式 -->
+                <a href="#" class="navbar-brand"><img src="./images/5_huan.png"></a>
+                <!-- 定义隐藏下拉按钮 -->
+                <button class="navbar-toggle" data-toggle="collapse" data-target="#togglemenu">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+ 
+ 
+            <!-- 做隐藏菜单 -->
+            <div class="collapse navbar-collapse" id="togglemenu">
+                <!-- 菜单项 -->
+                <ul class="nav navbar-nav">
+                    <!-- "cative"：定义当前页 -->
+                    <li class="active">
+                        <a href="index.html">首页</a>
+                        <div class="underline-bar"></div>
+                    </li>
+                    <li>
+                        <a href="https://www.beijing2022.cn/cn/olympics/speed_skating.htm">项目介绍</a>
+                        <div class="underline-bar"></div>
+                    </li>
+                    <li>
+                        <a href="news.html">新闻速递</a>
+                        <div class="underline-bar"></div>
+                    </li>
+                    <li><a href="game.html">赛事相关</a>
+                        <div class="underline-bar"></div>
+                    </li>
+                    <li><a href="about.html">关于我们</a>
+                        <div class="underline-bar"></div>
+                    </li>
+                </ul>
+ 
+                <!-- <button class="btn btn-default navbar-btn">按钮</button> -->
+ 
+                
+            </div>
+ 
+        </div>
+    </div>
+    <div class="top_pic">
+        <img src="./images/1.png" class="img-responsive ">
+    </div>
+    <div class="p1" >
+        <img src="./images/niaochao.jpg" class="img-responsive">
+        <div id="text" >
+            <h1>2022,</h1>
+            <h1>我们在此相遇。</h1>
+            </div>
+    </div>
+   <!---------------------------------------------------------------------------------------->
+
+
+
+    <div class="project">
+    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12" style="color: #fff;margin: 30px;"><h1>比赛项目</h1><span class=""><a href="https://www.beijing2022.cn/cn/olympics/speed_skating.htm">更多</a> </span></div>
+    <br/>
+    <div class="demo">
+           <div class="container mt30">
+               <div class="row">
+                   <div class="col-md-4 col-sm-6">
+                       <div class="box">
+                           <img src="images/ska.jpg" alt=""/>
+                           <div class="box-content">
+                               <h3 class="title">滑冰</h3>
+                               <span class="post">skating</span>
+                               <p class="description">
+                                  包括花样滑冰、速度滑冰、短道速滑。
+                               </p>
+                               <a href="https://www.beijing2022.cn/cn/olympics/speed_skating.htm" class="read">read more</a>
+                           </div>
+                       </div>
+                   </div>
+
+                   <div class="col-md-4 col-sm-6">
+                       <div class="box">
+                           <img src="images/ski.jpg" alt=""/>
+                           <div class="box-content">
+                               <h3 class="title">滑雪</h3>
+                               <span class="post">skiing</span>
+                               <p class="description">
+                                   包括自由式滑雪、冬季两项、越野滑雪、跳台滑雪、北欧两项(越野滑雪、跳台滑雪)、无舵雪橇、有舵雪橇、钢架雪车(俯式冰橇)、单板滑雪、高山滑雪。
+                               </p>
+                               <a href="https://www.beijing2022.cn/cn/olympics/freeski_big_air.htm" class="read">read more</a>
+                           </div>
+                       </div>
+                   </div>
+
+                   <div class="col-md-4 col-sm-6">
+                       <div class="box">
+                           <img src="images/sleigh.jpg" alt=""/>
+                           <div class="box-content">
+                               <h3 class="title">雪橇</h3>
+                               <span class="post">sleigh</span>
+                               <p class="description">
+                                1924年列为首届冬奥会比赛项目，分有舵雪橇和无舵雪橇两种类型。
+                               </p>
+                               <a href="https://www.beijing2022.cn/cn/olympics/luge.htm" class="read">read more</a>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="col-md-4 col-sm-6">
+                    <div class="box">
+                        <img src="images/car.jpg" alt=""/>
+                        <div class="box-content">
+                            <h3 class="title">雪车</h3>
+                            <span class="post">Bobsleigh</span>
+                            <p class="description">
+                                雪车起源于瑞士，1924年第一届冬奥会中，就已经成为比赛项目。
+                            </p>
+                            <a href="https://www.beijing2022.cn/cn/olympics/bobsleigh.htm" class="read">read more</a>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="box">
+                            <img src="images/cur.jpg" alt=""/>
+                            <div class="box-content">
+                                <h3 class="title">冰壶</h3>
+                                <span class="post">Curling</span>
+                                <p class="description">
+                                    起源于苏格兰，1992年7月21日，国际奥委会在西班牙巴塞罗那会议上通过了将冰壶纳入冬奥会的决议。
+                                </p>
+                                <a href="https://www.beijing2022.cn/cn/olympics/curling.htm" class="read">read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="box">
+                            <img src="images/bal.jpg" alt=""/>
+                            <div class="box-content">
+                                <h3 class="title">冰球</h3>
+                                <span class="post">Ice Hockey</span>
+                                <p class="description">
+                                    现代冰球运动起源于加拿大。
+                                </p>
+                                <a href="https://www.beijing2022.cn/cn/olympics/ice_hockey.htm" class="read">read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="box">
+                            <img src="images/bai1.jpg" alt=""/>
+                            <div class="box-content">
+                                <h3 class="title">冬季两项-滑雪</h3>
+                                <span class="post">Biathlon</span>
+                                <p class="description">
+                                    由越野滑雪和射击两种特点不同的相结合的竞赛项目结合在一起进行的运动。
+                                </p>
+                                <a href="https://www.beijing2022.cn/cn/olympics/biathlon.htm" class="read">read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="box">
+                            <img src="images/bai2.jpg" alt=""/>
+                            <div class="box-content">
+                                <h3 class="title">冬季两项-射击</h3>
+                                <span class="post">Biathlon</span>
+                                <p class="description">
+                                    由越野滑雪和射击两种特点不同的相结合的竞赛项目结合在一起进行的运动。
+                                </p>
+                                <a href="https://www.beijing2022.cn/cn/olympics/biathlon.htm" class="read">read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+           </div>
+       </div>
+    </div>
+    </div>
+    <div class="text-center" style="padding-top:20px;padding-bottom: 20px;background-color: #002250;margin-bottom: 0px; color: white;">
+        <p>版权©北京2022年冬奥会和冬残奥会组织委员会</p>
+        <p>Beijing Organising Committee for the 2022 Olympic and Paralympic Winter Games All Rights Reserved</p>
+        <p>京ICP备16036081号-1  京公网安备 11010702002022号</p>
+    </div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- 在移动端不缩放 -->
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>北京2022年冬奥会</title>
+    <!-- 新 Bootstrap 核心 CSS 文件 -->
+ 
+<link href="css/bootstrap.css" rel="stylesheet">
+ 
+<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+<script src="js/jquery.js"></script>
+ 
+<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+<script src="js/bootstrap.js"></script>
+<script src="js/jquery.let_it_snow.js"></script>
+<link rel="shortcut icon" href="./dong.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <script type="text/javascript">
+        $(document).ready( function() {
+          $("canvas.snow").let_it_snow({
+            speed: 1,
+            size: 15,
+            count: 26,
+            image: "./images/snowflake.png"
+          });
+        });
+      
+        </script>
+        <canvas width="100%" height="100%" class="snow"></canvas>
+    <!-- 定义反白导航条 -->
+    <div class="navbar navbar-inverse navbar-static-top" style="margin: 0;">
+        <div class="container">
+            <!-- 申明logo的容器 -->
+            <div class="navbar-header">
+                <!-- 针对logo等固定内容的样式 -->
+                <a href="#" class="navbar-brand"><img src="./images/5_huan.png"></a>
+                <!-- 定义隐藏下拉按钮 -->
+                <button class="navbar-toggle" data-toggle="collapse" data-target="#togglemenu">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+ 
+ 
+            <!-- 做隐藏菜单 -->
+            <div class="collapse navbar-collapse" id="togglemenu">
+                <!-- 菜单项 -->
+                <ul class="nav navbar-nav">
+                    <!-- "cative"：定义当前页 -->
+                    <li>
+                        <a href="index.html">首页</a>
+                        <div class="underline-bar"></div>
+                    </li>
+                    <li>
+                        <a href="https://www.beijing2022.cn/cn/olympics/speed_skating.htm">项目介绍</a>
+                        <div class="underline-bar"></div>
+                    </li>
+                    <li >
+                        <a href="news.html">新闻速递</a>
+                        <div class="underline-bar"></div>
+                    </li >
+                    <li class="active"><a href="game.html">赛事相关</a>
+                        <div class="underline-bar"></div>
+                    </li>
+                    <li><a href="about.html">关于我们</a>
+                        <div class="underline-bar"></div>
+                    </li>
+                </ul>
+ 
+                <!-- <button class="btn btn-default navbar-btn">按钮</button> -->
+ 
+                
+            </div>
+ 
+        </div>
+    </div>
+    <div class="top_pic">
+        <img src="./images/1.png" class="img-responsive">
+    </div>
+    
+    <div id="zhize" class="container page" >
+        <img src="./images/game.png" alt="" class="img-responsive">
+    </div>  
+    <div class="container text-center" style="border-radius: 1%/8%;background-color: white;padding-top:20px;padding-bottom: 20px;">
+        <p>版权©北京2022年冬奥会和冬残奥会组织委员会</p>
+        <p>Beijing Organising Committee for the 2022 Olympic and Paralympic Winter Games All Rights Reserved</p>
+        <p>京ICP备16036081号-1  京公网安备 11010702002022号</p>
+    </div>
+</body>
+</html>
