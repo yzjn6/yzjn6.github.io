@@ -1,6 +1,6 @@
 ---
 layout: post
-title: javascript day0
+title: day0-JS的引入
 categories: [Javascript]
 description: JS
 keywords: JS, JavaScript
@@ -78,7 +78,7 @@ console.log("xxxxxxxx");
 
 # 基本语法
 
-## 
+## x
 
 # 字面量
 
