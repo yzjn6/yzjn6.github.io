@@ -1,17 +1,17 @@
 baseurl:
-url: https://yzj957x.github.io
+url: https://yzjn6.github.io
 title: 智君小栈
 subtitle: "黎明降至，抬头尽是朝阳。"
-description: "yzj957x's personal page"
+description: "yzjn6's personal page"
 date_format: "ordinal"
 
 encoding: "utf-8"
 side_bar_repo_limit: 5
 
-author: yzj957x
+author: yzjn6
 organization: NCU
 organization_url: http://www.ncu.edu.cn
-github_username: yzj957x
+github_username: yzjn6
 location: Nanchang, China
 email: yzj2323@163.com
 
@@ -60,7 +60,7 @@ collections:
         output: true
         permalink: /wiki/:path/
 
-repository: yzj957x/yzj957x.github.io
+repository: yzjn6/yzjn6.github.io
 
 # Search
 simple_jekyll_search:
