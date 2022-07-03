@@ -1,9 +1,6 @@
 ---
 layout: post
-<<<<<<< HEAD
 title: Day0-JS的引入
-=======
-title: Javascript day0
 categories: [Javascript]
 description: JS
 keywords: JS, JavaScript
