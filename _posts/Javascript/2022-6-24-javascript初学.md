@@ -1,6 +1,10 @@
 ---
 layout: post
+<<<<<<< HEAD
 title: day0-JS的引入
+=======
+title: Javascript day0
+>>>>>>> b818cd3007f113b9b4dcaca553dda15f3d4fec3a
 categories: [Javascript]
 description: JS
 keywords: JS, JavaScript
@@ -78,7 +82,11 @@ console.log("xxxxxxxx");
 
 # 基本语法
 
+<<<<<<< HEAD
 ## x
+=======
+## 1.  ... 
+>>>>>>> b818cd3007f113b9b4dcaca553dda15f3d4fec3a
 
 # 字面量
 
