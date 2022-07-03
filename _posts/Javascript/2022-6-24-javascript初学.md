@@ -1,6 +1,6 @@
 ---
 layout: post
-title: javascript day0
+title: Javascript day0
 categories: [Javascript]
 description: JS
 keywords: JS, JavaScript
@@ -78,7 +78,7 @@ console.log("xxxxxxxx");
 
 # 基本语法
 
-## 
+## 1.  ... 
 
 # 字面量
 
