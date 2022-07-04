@@ -169,7 +169,7 @@ description: some word here//描述，暂时好像没发现有什么用
 keywords: keyword1, keyword2
 ```
 
-文章命名也需要严格以`yyyy-mm-dd-标题`命名，如`2022-07-03-Oracle从删库到跑路`
+文章文件命名也需要严格以`yyyy-mm-dd-标题.md`命名，如`2022-07-03-Oracle从删库到跑路.md`
 
 如果我们想要添加、减少或改变博客首页的板式，可以编辑`_config.yml`文件，其中的细节这里不再赘述，大家可以自行摸索。目录pages/下面是博客的各个板块的网页文件，用户也可以自行添加和删除，但是要配合修改`__config.yml`文件。
 
