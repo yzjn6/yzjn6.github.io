@@ -1,17 +1,17 @@
 ---
 layout: page
-title: Wiki
+title: Miki
 description: 抄来的知识
-keywords: 维基, Wiki
+keywords: 维基, Miki
 comments: false
-menu: Wiki
-permalink: /wiki/
+menu: Miki
+permalink: /Miki/
 ---
 
 <ul class="listing">
-{% for wiki in site.wiki %}
-{% if wiki.title != "Wiki Template" %}
-<li class="listing-item"><a href="{{ site.url }}{{ wiki.url }}">{{ wiki.title }}</a></li>
+{% for miki in site.miki %}
+{% if miki.title != "Miki Template" %}
+<li class="listing-item"><a href="{{ site.url }}{{ miki.url }}">{{ miki.title }}</a></li>
 {% endif %}
 {% endfor %}
 </ul>
