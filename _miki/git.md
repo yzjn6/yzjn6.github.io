@@ -1,5 +1,5 @@
 ---
-layout: wiki
+layout: miki
 title: Git
 categories: Git
 description: Git 常用操作记录。
