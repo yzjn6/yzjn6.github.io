@@ -1,5 +1,5 @@
 ---
-layout: wiki
+layout: miki
 title: Wiki Template
 categories: [cate1, cate2]
 description: some word here
