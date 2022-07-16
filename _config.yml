@@ -26,8 +26,8 @@ navs:
     label: Blogs
 
   -
-    href: /wiki/
-    label: Wiki
+    href: /miki/
+    label: miki
 
   -
     href: /links/
