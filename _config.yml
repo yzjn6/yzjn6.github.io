@@ -56,9 +56,9 @@ plugins:
     - jemoji
 #     - jekyll-mentions
 collections:
-    wiki:
+    miki:
         output: true
-        permalink: /wiki/:path/
+        permalink: /miki/:path/
 
 repository: yzjn6/yzjn6.github.io
 
