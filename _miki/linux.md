@@ -1,5 +1,5 @@
 ---
-layout: wiki
+layout: miki
 title: Linux/Unix
 categories: Linux
 description: 类 Unix 系统下的一些常用命令和用法。
