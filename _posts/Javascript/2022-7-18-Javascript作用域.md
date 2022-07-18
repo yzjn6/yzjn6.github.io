@@ -61,3 +61,27 @@ console.log(a);
 > - console对象对`log`方法RHS查询
 > - a（取得参数的值`2`）
 
+> ## 例子
+
+> ```js
+> function foo(a) {
+>   var b = a;
+>   return a + b;
+> }
+> var c = foo(2);
+> ```
+>
+
+> ### LHS
+>
+> - `var c =` foo(2);
+> - `var b =`a;
+> - `a=`2;
+>
+> ### RHS
+>
+> - 查找foo(...)
+> - var b = `a`;
+> - return `a` + b;
+> - return a + `b`;
+
