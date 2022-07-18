@@ -56,7 +56,7 @@ console.log(a);
 >
 > ### RHS
 >
-> - foo(...)（取得函数`foo(...)`的最终结果）
+> - foo(...)（找到函数`foo(...)`）
 > - 函数内部console.log(...)（取得`console.log(...)`的最终结果）
 > - console对象对`log`方法RHS查询
 > - a（取得参数的值`2`）
