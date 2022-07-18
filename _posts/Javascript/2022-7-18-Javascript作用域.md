@@ -74,9 +74,9 @@ console.log(a);
 
 > ### LHS
 >
-> - `var c =` foo(2);
-> - `var b =`a;
-> - `a=`2;
+> - `var c =` foo(2);（赋值）
+> - `var b =`a;（赋值）
+> - `a=`2;（赋值）
 >
 > ### RHS
 >
