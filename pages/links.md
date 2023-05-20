@@ -11,6 +11,6 @@ permalink: /links/
 ## links
 - [NCU](http://www.ncu.edu.cn)
 - [冬奥会作业](../ortherpage/dongaohui)
-- [Firework](../ortherpage/Firework)
+- [Firework](../ortherpage/Fireworks)
 
 ## Public pages
